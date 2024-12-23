@@ -6,24 +6,25 @@ body {
 
 .profile-container {
   display: flex;
-  justify-content: flex-start;
+  justify-content: flex-start; /* Align items to the start (left) */
   align-items: center;
   padding: 20px;
 }
 
 .profile-description {
-  flex: 1; /* This allows the description to take up available space */
+  flex: 1;
   padding-right: 20px;
 }
 
 .profile-picture {
   width: 150px;
   height: 150px;
-  margin-left: auto; /* This pushes the image to the right */
+  margin-left: auto;
+  margin-right: 20px; /* Adjust to center it closer to the right */
 }
 
 .profile-picture img {
   width: 100%;
-  height: auto;
-  object-fit: cover; /* This ensures the image covers the container area without distortion
+  height: 100%;
+  object-fit: cover;
 }
