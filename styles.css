@@ -25,5 +25,5 @@ body {
 .profile-picture img {
   width: 100%;
   height: auto;
-  border-radius: 80%; /* Optional: makes the image round */
+  object-fit: cover; /* This ensures the image covers the container area without distortion
 }
