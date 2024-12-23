@@ -25,5 +25,5 @@ body {
 .profile-picture img {
   width: 100%;
   height: auto;
-  border-radius: 50%; /* Optional: makes the image round */
+  border-radius: 80%; /* Optional: makes the image round */
 }
