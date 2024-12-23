@@ -20,7 +20,7 @@ body {
   width: 150px;
   height: 150px;
   margin-left: auto;
-  margin-right: 150px; /* Adjust to center it closer to the right */
+  margin-right: 20px; /* Adjust to center it closer to the right */
 }
 
 .profile-picture img {
