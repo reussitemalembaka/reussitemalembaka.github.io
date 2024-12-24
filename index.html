@@ -1,46 +1,65 @@
-<!DOCTYPE html> 
-<html lang="en"> 
-<head> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
    <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta name="description" content="A personal website showcasing the scientific and professional work and accomplishments of Reussite Malembaka">
-   <link rel="icon" href="favicon.ico" type="image/x-icon"> 
-   <title>Reussite Malembaka's website</title> 
-   <style> 
-      .center { text-align: center; /* Center text horizontally */ 
-               margin: 0 auto; /* Center div itself */ 
-              } 
-      .container { display: flex; 
-                  justify-content: center; 
-                  background-color: lightblue; /* Blue background */ 
-                  padding: 20px; /* Add some padding for spacing */ 
-                 }
-      .box { width: 20%; /* Adjust as needed */ 
-            text-align: center; /* Center text horizontally */ 
-            padding: 5px; /* Add padding inside each box */ 
-            border: 1px solid blue; /* Blue border for better visibility */ } 
-   </style> 
-   <link rel="stylesheet" href="styles.css"> 
-</head> 
-<body> 
-   <div class="center"> 
-      <h1>Welcome to my website</h1>
-   </div> <div class="container"> 
-      <div class="box"> 
-         <h2> <a href="education.html">Education</a></h2>
-         <p>Learn about my education here</p>
-      </div> 
+   <link rel="icon" href="favicon.ico" type="image/x-icon">
+   <title>Reussite Malembaka's website</title>
+   <style>
+      .center {
+         text-align: center; /* Center text horizontally */
+         margin: 0 auto; /* Center div itself */
+      }
+      .container {
+         display: flex;
+         justify-content: center; /* Center the container horizontally */
+         background-color: lightblue; /* Blue background */
+         padding: 20px; /* Add some padding for spacing */
+      }
+      .box {
+         width: 20%; /* Adjust as needed */
+         text-align: center; /* Center text horizontally */
+         padding: 5px; /* Add padding inside each box */
+         border: 1px solid blue; /* Blue border for better visibility */
+         margin: 0 10px; /* Add some margin between boxes */
+      }
+      .profile-container {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin-top: 20px;
+      }
+      .profile-description, .profile-picture {
+         margin: 10px;
+      }
+      .profile-picture img {
+         max-width: 100%;
+         height: auto;
+      }
+   </style>
+   <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="center">
+    <h1>Welcome to my website</h1>
+  </div>
+
+  <div class="container">
       <div class="box">
-         <h2><a href="projects.html">Projects</a></h2> 
-         <p>Explore my projects here</p> </div> 
-      <div class="box"> 
-         <h2><a href="publications.html">Publications</a></h2>
-         <p>Find my published works here</p> 
-      </div> 
-   </div>
-  <p>---------------------------------------------------</p>  
-  <!-- This is to place my picture on the right -->
-   
+        <h2><a href="education.html">Education</a></h2>
+        <p>Learn about my education here</p>
+      </div>
+      <div class="box">
+        <h2><a href="projects.html">Projects</a></h2>
+        <p>Explore my projects here</p>
+      </div>
+      <div class="box">
+        <h2><a href="publications.html">Publications</a></h2>
+        <p>Find my published works here</p>
+      </div>
+  </div>
+
   <div class="profile-container">
     <div class="profile-description">
       <h1>Reussite B. Malembaka</h1>
@@ -50,67 +69,49 @@
       <img src="profile picture.jpg" alt="Reussite's Profile Picture">
     </div>
   </div>
-    <!-- Link to the external CSS file -->
-  <link rel="stylesheet" href="styles.css">
 
-<p>---------------------------------------------------</p>
-<div class="center">    
-        <h1> ... </h1>
-        <h2> I am an agricultural scientist, interested in agroecology, soil science, and food systems impacts assessment </h2>
-        <h3> I am also a blogger, intersted in coding</h3>
-        <p> I share below some images of my time as a scientist</p>
-    <section>
-      <style> 
-      .container { 
-        display: flex; 
-        justify-content: space-around;
-        align-items: center; 
-        flex-wrap: wrap; 
-      }
-      .container .box { 
-        width: 45%; 
-        text-align: center; 
-        margin: 10px; 
-      } 
-      .container img {
-        max-width: 100%; height: auto; 
-      }
-    </style>
-      <div class="container"> 
-        <div class="box"> 
-          <!-- Image -->
-          <img src="IMG_20160929_160231.jpg" alt="A beautiful moment at work" height="510" width="330">
-          <p>The image displayed above is of me in a soil microbiology laboratory, producing rhizobia inoculants </p>
-        </div> 
-        <div class="box"> 
-          <!-- Image -->
-          <img src="field of maize and soybean in DRCongo.jpg" alt="A beautiful moment at work" height="450" width="350">
-        <p>A field visit during data collection in soybean production systems in DR Congo, May 2023 </p>
-        </div>
-     </section>
-     <section>
-       <div class="container"> 
-        <div class="box"> 
-      <!-- Image -->
+  <div class="center">    
+    <h1>...</h1>
+    <h2>I am an agricultural scientist, interested in agroecology, soil science, and food systems impacts assessment</h2>
+    <h3>I am also a blogger, interested in coding</h3>
+    <p>I share below some images of my time as a scientist</p>
+  </div>
+
+  <section>
+    <div class="container">
+      <div class="box">
+        <img src="IMG_20160929_160231.jpg" alt="A beautiful moment at work" height="510" width="330">
+        <p>The image displayed above is of me in a soil microbiology laboratory, producing rhizobia inoculants</p>
+      </div>
+      <div class="box">
+        <img src="field of maize and soybean in DRCongo.jpg" alt="A beautiful moment at work" height="450" width="350">
+        <p>A field visit during data collection in soybean production systems in DR Congo, May 2023</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="box">
         <img src="presentation at Kalambo 05.2024.jpg" alt="A beautiful moment at work" height="400" width="350">
         <p>My poster presented at the Day of Agroecology conference, in May 2024</p>
-        </div>
-     <div class="box"> 
-      <!-- Image -->
+      </div>
+      <div class="box">
         <img src="IMG_20200223_112209.jpg" alt="On my master defense day" height="300" width="350">
-          <p>On my master studies defense </p>
-       </div>
-    </section>
-    <header>
-        <h1> Contact:</h1>
-        <h2> Tel: +41 77 99 63 907 </h2>
-        <h2> Email: rbugale@ethz.ch </h2>
-        <p><a href="https://agroecological-transitions.ethz.ch/people/profile.Mjk5NjE3.TGlzdC80MjA5LC0xOTY5NDc0NTAy.html" target="_blank">Visit my ETH Website here</a></p>
-    </header>
-  
-    <footer>
-        <p>&copy; 2024 Réussite Malembaka's personal site</p>
-    </footer>
-  </div> 
+        <p>On my master studies defense</p>
+      </div>
+    </div>
+  </section>
+
+  <header class="center">
+    <h1>Contact:</h1>
+    <h2>Tel: +41 77 99 63 907</h2>
+    <h2>Email: rbugale@ethz.ch</h2>
+    <p><a href="https://agroecological-transitions.ethz.ch/people/profile.Mjk5NjE3.TGlzdC80MjA5LC0xOTY5NDc0NTAy.html" target="_blank">Visit my ETH Website here</a></p>
+  </header>
+
+  <footer class="center">
+    <p>&copy; 2024 Réussite Malembaka's personal site</p>
+  </footer>
 </body>
 </html>
