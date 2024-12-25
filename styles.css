@@ -14,10 +14,13 @@
 .box {
   width: 20%; /* Adjust as needed */ 
   text-align: center;   /* Center text horizontally */
-  padding: 5px;   /* Add padding inside each box */ 
-  border: 1px solid blue; /* Blue border for better visibility */ 
+  padding: 10px;   /* Add padding inside each box */ 
+  border: 1px solid lightskyblue; /* Blue border for better visibility */ 
   margin: 0 10px; /* Add some margin between boxes */ 
   background-color: lightblue;   /* Blue background */ 
+  word-wrap: break-word; /* Ensure long words break and stay within the box */ 
+  overflow-wrap: break-word; /* Ensure long words break and stay within the box */ 
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */ 
 } 
 
 body {
@@ -55,14 +58,14 @@ margin-left:20px
 }
 
 /* Styles for tablets */
-@media (max-width: 768px) { 
-         .box { 
-                  flex: 1 1 45%; 
-         } 
+@media (max-width: 768px) {
+   .box {
+    flex: 1 1 45%;
+  } 
 } 
 /* Styles for mobile phones */ 
-@media (max-width: 480px) { 
-         .box { 
-                  flex: 1 1 100%; 
-         }
+@media (max-width: 480px) {
+  .box {
+    flex: 1 1 100%;
+  }
 }
