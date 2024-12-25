@@ -20,6 +20,12 @@
   background-color: lightblue;   /* Blue background */ 
 } 
 
+body {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+}
+
 /* CSS for the profile container */ 
 .profile-container { 
   display: flex; 
@@ -27,12 +33,7 @@
   align-items: center; 
   margin-top: 20px;
   padding: 20px;
-}
-
-body {
-  font-family: 'Times New Roman', Times, serif;
-  margin: 0;
-  padding: 0;
+margin-left:20px
 }
 
 .profile-description {
