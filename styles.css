@@ -52,3 +52,16 @@ body {
   height: 100%;
   object-fit: cover;
 }
+
+/* Styles for tablets */
+@media (max-width: 768px) { 
+         .box { 
+                  flex: 1 1 45%; 
+         } 
+} 
+/* Styles for mobile phones */ 
+@media (max-width: 480px) { 
+         .box { 
+                  flex: 1 1 100%; 
+         }
+}
