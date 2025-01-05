@@ -2,7 +2,7 @@
 /* CSS code for a styled header */
 .header {
     background-color: #90d980; /* Background color of the header */
-    color: white;             /* Text color of the header */
+    color: black;             /* Text color of the header */
     padding: 20px;            /* Padding inside the header */
     text-align: center;       /* Centering the text inside the header */
     font-size: 24px;          /* Font size of the header text */
