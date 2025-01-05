@@ -1,3 +1,21 @@
+
+/* CSS code for a styled header */
+.header {
+    background-color: #90d980; /* Background color of the header */
+    color: white;             /* Text color of the header */
+    padding: 20px;            /* Padding inside the header */
+    text-align: center;       /* Centering the text inside the header */
+    font-size: 24px;          /* Font size of the header text */
+    margin: 0;                /* No margin around the header */
+    border-bottom: 2px solid #3e8e41; /* Optional: Add a bottom border to the header */
+}
+
+/* Additional styling for the header title */
+.header h1 {
+    margin: 0;                /* No margin for the header title */
+    font-family: 'Times New Roman', Times, serif; /* Font family of the header title */
+}
+
 /* CSS for centering text */ 
 .center { text-align: center; /* Center text horizontally */ 
          margin: 0 auto; /* Center div itself */ 
@@ -14,13 +32,13 @@
 .box {
   width: 20%; /* Adjust as needed */ 
   text-align: center;   /* Center text horizontally */
-  padding: 10px;   /* Add padding inside each box */ 
+  padding: 3px;   /* Add padding inside each box */ 
   border: 1px solid lightskyblue; /* Blue border for better visibility */ 
   margin: 0 10px; /* Add some margin between boxes */ 
-  background-color: lightblue;   /* Blue background */ 
+  background-color: rgb(159, 221, 242);   /* Blue background */ 
   word-wrap: break-word; /* Ensure long words break and stay within the box */ 
   overflow-wrap: break-word; /* Ensure long words break and stay within the box */ 
-  box-sizing: border-box; /* Include padding and border in the element's total width and height */ 
+  box-sizing: border-box; /*  Include padding and border in the element's total width and height  */
 } 
 
 body {
@@ -63,12 +81,22 @@ body {
 @media (max-width: 768px) {
    .box {
     flex: 1 1 45%;
-  } 
+    width: 100%; /* Make boxes take full width */ 
+    margin: 10px 0; /* Vertical margin between boxes */
+  }
+  .container {
+    flex-direction: column;
+  }
 } 
 /* Styles for mobile phones */ 
 @media (max-width: 480px) {
   .box {
     flex: 1 1 100%;
+    width: 100%; /* Make boxes take full width */ 
+    margin: 10px 0; /* Vertical margin between boxes */
+  }
+  .container {
+    flex-direction: column;
   }
 }
 
