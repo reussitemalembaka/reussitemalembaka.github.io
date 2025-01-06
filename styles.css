@@ -1,11 +1,11 @@
 
 /* CSS code for a styled header */
 .header {
-    background-color: #90d980; /* Background color of the header */
+    background-color: #8ac07e; /* Background color of the header */
     color: black;             /* Text color of the header */
-    padding: 20px;            /* Padding inside the header */
+    padding: 12px;            /* Padding inside the header */
     text-align: center;       /* Centering the text inside the header */
-    font-size: 24px;          /* Font size of the header text */
+    font-size: 20px;          /* Font size of the header text */
     margin: 0;                /* No margin around the header */
     border-bottom: 2px solid #3e8e41; /* Optional: Add a bottom border to the header */
 }
@@ -35,7 +35,7 @@
   padding: 3px;   /* Add padding inside each box */ 
   border: 1px solid rgb(130, 181, 212); /* Blue border for better visibility */ 
   margin: 0 10px; /* Add some margin between boxes */ 
-  background-color: rgb(159, 221, 242);   /* Blue background */ 
+  background-color: rgb(186, 224, 236);   /* Blue background */ 
   word-wrap: break-word; /* Ensure long words break and stay within the box */ 
   overflow-wrap: break-word; /* Ensure long words break and stay within the box */ 
   box-sizing: border-box; /*  Include padding and border in the element's total width and height  */
