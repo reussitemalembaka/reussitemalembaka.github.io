@@ -33,12 +33,13 @@
   width: 20%; /* Adjust as needed */ 
   text-align: center;   /* Center text horizontally */
   padding: 3px;   /* Add padding inside each box */ 
-  border: 1px solid lightskyblue; /* Blue border for better visibility */ 
+  border: 1px solid rgb(130, 181, 212); /* Blue border for better visibility */ 
   margin: 0 10px; /* Add some margin between boxes */ 
   background-color: rgb(159, 221, 242);   /* Blue background */ 
   word-wrap: break-word; /* Ensure long words break and stay within the box */ 
   overflow-wrap: break-word; /* Ensure long words break and stay within the box */ 
   box-sizing: border-box; /*  Include padding and border in the element's total width and height  */
+  border-radius: 25px;
 } 
 
 body {
@@ -62,10 +63,25 @@ body {
   padding-right: 20px;
 }
 
+.profile-box {
+  flex: 1;
+  /* padding-right: 20px; */
+  /* width: 20%; Adjust as needed  */
+  text-align: center;   /* Center text horizontally */
+  padding: 3px;   /* Add padding inside each box */ 
+  border: 1px solid rgb(120, 145, 241); /* Blue border for better visibility */ 
+  margin: 0 10px; /* Add some margin between boxes */ 
+  background-color: rgb(255, 255, 255);   /* Blue background */ 
+  word-wrap: break-word; /* Ensure long words break and stay within the box */ 
+  overflow-wrap: break-word; /* Ensure long words break and stay within the box */ 
+  box-sizing: border-box; /*  Include padding and border in the element's total width and height  */
+  border-radius: 30px;
+}
+
 .profile-picture {
-  display: flex;
+  /* display: flex; */
   justify-content: center; 
-  width: 210px;
+  width: 200px;
   height: auto;
   margin-left: auto;
   margin-right: auto; /* Centering the image horizontally */
