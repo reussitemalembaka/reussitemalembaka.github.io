@@ -23,8 +23,11 @@ nav {
 
 /* CSS for centering text */ 
 .center { text-align: center; /* Center text horizontally */ 
-         margin: 0 auto; /* Center div itself */ 
-        } 
+         /*margin: 0 auto; /*Center div itself */
+         padding-left: 30px; /* Add space on the left */
+         padding-right: 30px;  
+         width : 85% /*adjust as needed*/
+} 
 
 /* CSS for the container with blue background and centered content */ 
 .container { 
@@ -105,10 +108,20 @@ body {
    border-radius: 50%;
 }
 
+/* CSS for centering text of the publications cited */ 
+.center_left { text-align: left; /* Center text horizontally */ 
+  /*margin: 0 auto; /*Center div itself */
+  padding-left: 30px; /* Add space on the left */
+  padding-right: 30px;  
+  width : 85% /*adjust as needed*/
+} 
+
  .listed-element { /*for elements listed in the publications or projects pages */
-  margin-bottom: 20px; /* Adjust the value as needed */
-  font-size: 17px;
-  } 
+  margin-top: 13px;
+  margin-bottom: 5px; /* Adjust the value as needed */
+  font-size: 16px;
+  text-align: left;
+} 
 
 /* Styles for tablets */
 @media (max-width: 768px) {
