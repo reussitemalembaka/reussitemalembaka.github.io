@@ -69,32 +69,34 @@ body {
 /* CSS for the profile container */ 
 .profile-container { 
   display: flex; 
-  justify-content: center; 
+  justify-content: right; 
   align-items: center; 
-  margin-top: 20px;
-  padding: 20px;
-  margin-left:20px
 }
 
 .profile-description {
   flex: 1;
   padding-right: 20px;
+  padding-left: 20px;
   font-size: 18px;
+  text-align: justify;  /* Justify the text */
 }
 
 .profile-box {
-  flex: 1;
+  flex: 3;
   /* padding-right: 20px; */
   /* width: 20%; Adjust as needed  */
   text-align: center;   /* Center text horizontally */
-  padding: 3px;   /* Add padding inside each box */ 
+  padding: 2px;   /* Add padding inside each box */ 
   border: 1px solid rgb(120, 145, 241); /* Blue border for better visibility */ 
   margin: 0 10px; /* Add some margin between boxes */ 
   background-color: rgb(255, 255, 255);   /* Blue background */ 
   word-wrap: break-word; /* Ensure long words break and stay within the box */ 
   overflow-wrap: break-word; /* Ensure long words break and stay within the box */ 
-  box-sizing: border-box; /*  Include padding and border in the element's total width and height  */
+  box-sizing: content-box; /*  Include padding and border in the element's total width and height  */
   border-radius: 30px;
+  margin-top: 20px;
+  padding: 20px;
+  margin-left:20px
 }
 
 .profile-picture {
@@ -111,11 +113,11 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 45%;
 }
 
 .circularImage {
-   border-radius: 50%;
+   border-radius:40%;
 }
 
 /* CSS for centering text of the publications cited */ 
@@ -132,6 +134,18 @@ body {
   font-size: 16px;
   text-align: left;
 } 
+
+/* Button-style link */
+.button {
+  display: inline-block;      /* Make the link act like a button */
+  padding: 10px 20px;         /* Add padding inside the button */
+  background-color: blue;     /* Blue background */
+  color: white;               /* White text color */
+  text-decoration: none;      /* Remove underline from the link */
+  font-size: 18px;            /* Set the font size */
+  border-radius: 5px;         /* Rounded corners */
+  text-align: center;         /* Center the text inside the link */
+}
 
 /* Styles for tablets */
 @media (max-width: 768px) {
@@ -194,11 +208,11 @@ z-index: -1;
 }
 
 .footer_with_background.bg2::before {
-  background-image: url('workshop_with_smallfarmers_in_Kalehe.jpg');
+  background-image: url('workshop_with_smallfarmers_in Kalehe.jpg');
 }
 
 .footer_with_background.bg3::before {
-  background-image: url('field of maize and soybean in DRCongo.jpg');
+  background-image: url('Visit Laercio soja-PR.jpg');
 }
 
 .social-links { 
