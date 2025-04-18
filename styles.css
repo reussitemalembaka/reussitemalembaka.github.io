@@ -6,13 +6,14 @@ nav {
 
 /* CSS code for a styled header */
 .header {
-    background-color: #b2d1ac; /* Background color of the header */
+    background-color: #b2c8ad; /* Background color of the header */
+    opacity: 0.7;
     color: rgb(255, 255, 255);             /* Text color of the header */
     padding: 3px;            /* Padding inside the header */
     text-align: center;       /* Centering the text inside the header */
     font-size: 18px;          /* Font size of the header text */
     margin: 0;                /* No margin around the header */
-    border-bottom: 2px solid #3e8e41; /* Optional: Add a bottom border to the header */
+    border-bottom: 2px solid #58a15b; /* Optional: Add a bottom border to the header */
 }
 
 .header2 {
@@ -175,7 +176,7 @@ footer {
   justify-content: center; 
   margin-top: 20px; 
   padding: 20px; 
-  background-color: #bcdebd; /* Optional: Add a background color to the footer */ 
+  background-color: #d0e8d1; /* Optional: Add a background color to the footer */ 
 } 
 
 .footer_with_background {
@@ -226,9 +227,39 @@ z-index: -1;
   display: flex; 
   align-items: center; 
   text-decoration: none; 
-  color: #7ca33d; /* Default link color */ 
+  color: #438b80; /* Default link color */ 
 } 
 
 .social-links img { 
   margin-right: 5px; 
+}
+
+/* Codes for background image on the main page */ 
+.background-wrapper {
+  position: relative; /* Sets the position for the pseudo-element */
+  width: 100%; /* Makes the wrapper cover the full page width */
+  height: 100vh; /* Full viewport height */
+  overflow: hidden; /* Ensures any content overflowing is hidden */
+}
+
+.background-wrapper::before {
+  content: ""; /* Necessary for the pseudo-element */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* Covers the full width */
+  height: 100%; /* Covers the full height */
+  background-image: url('Visit Laercio soja-PR.jpg'); /* Replace with your image path */
+  background-size: cover; /* Ensures the image covers the entire area */
+  background-position: center; /* Centers the image */
+  background-attachment: fixed; /* Keeps the background image static */
+  background-repeat: no-repeat; /* Prevents repetition */
+  opacity: 0.4; /* Sets 50% transparency */
+  z-index: -1; /* Pushes it behind the content */
+}
+
+section {
+  position: relative; /* Ensures section content appears on top */
+  z-index: 1; /* Sets content above the background */
+  /*color: white;  Makes text readable */
 }
