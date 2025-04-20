@@ -6,10 +6,10 @@ nav {
 
 /* CSS code for a styled header */
 .header {
-    background-color: #b2c8ad; /* Background color of the header */
+    /*background-color: #b2c8ad;  Background color of the header */
     opacity: 0.7;
-    color: rgb(255, 255, 255);             /* Text color of the header */
-    padding: 3px;            /* Padding inside the header */
+    color: rgb(91, 95, 61);  /* Text color of the header */
+    padding: 2px;            /* Padding inside the header */
     text-align: center;       /* Centering the text inside the header */
     font-size: 18px;          /* Font size of the header text */
     margin: 0;                /* No margin around the header */
@@ -44,7 +44,7 @@ nav {
 .container { 
   display: flex; 
   justify-content: center; 
-  padding: 40px; /* Add some padding for spacing */ 
+  padding: 20px; /* Add some padding for spacing */ 
 } 
 
 /* CSS for individual boxes within the container */ 
@@ -87,17 +87,17 @@ body {
   /* padding-right: 20px; */
   /* width: 20%; Adjust as needed  */
   text-align: center;   /* Center text horizontally */
-  padding: 2px;   /* Add padding inside each box */ 
+  padding: 4px;   /* Add padding inside each box */ 
   border: 1px solid rgb(120, 145, 241); /* Blue border for better visibility */ 
-  margin: 0 10px; /* Add some margin between boxes */ 
+  margin: 0 5px; /* Add some margin between boxes */ 
   background-color: rgb(255, 255, 255);   /* Blue background */ 
   word-wrap: break-word; /* Ensure long words break and stay within the box */ 
   overflow-wrap: break-word; /* Ensure long words break and stay within the box */ 
   box-sizing: content-box; /*  Include padding and border in the element's total width and height  */
   border-radius: 30px;
   margin-top: 20px;
-  padding: 20px;
-  margin-left:20px
+  margin-right: 60px;
+  margin-left:60px
 }
 
 .profile-picture {
@@ -200,7 +200,7 @@ height: 100%;
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
-opacity: 0.5;/*adjust transparency as needed. full opacity=1*/
+opacity: 0.45;/*adjust transparency as needed. full opacity=1*/
 z-index: -1;
 }
 
