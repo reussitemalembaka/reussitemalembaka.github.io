@@ -239,7 +239,7 @@ z-index: -1;
   position: relative; /* Sets the position for the pseudo-element */
   width: 100%; /* Makes the wrapper cover the full page width */
   height: 100vh; /* Full viewport height */
-  overflow: hidden; /* Ensures any content overflowing is hidden */
+  overflow: auto; /* Enables scrolling */
 }
 
 .background-wrapper::before {
@@ -254,7 +254,7 @@ z-index: -1;
   background-position: center; /* Centers the image */
   background-attachment: fixed; /* Keeps the background image static */
   background-repeat: no-repeat; /* Prevents repetition */
-  opacity: 0.4; /* Sets 50% transparency */
+  opacity: 0.4; /* Sets 40% transparency */
   z-index: -1; /* Pushes it behind the content */
 }
 
