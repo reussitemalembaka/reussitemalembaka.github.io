@@ -6,9 +6,9 @@ nav {
 
 /* CSS code for a styled header */
 .header {
-    /*background-color: #b2c8ad;  Background color of the header */
-    opacity: 0.7;
-    color: rgb(91, 95, 61);  /* Text color of the header */
+    background-color: #f4f5e2; /* Background color of the header */
+    opacity: 0.8;
+    color: rgb(93, 95, 72);  /* Text color of the header */
     padding: 2px;            /* Padding inside the header */
     text-align: center;       /* Centering the text inside the header */
     font-size: 18px;          /* Font size of the header text */
@@ -238,7 +238,7 @@ z-index: -1;
 .background-wrapper {
   position: relative; /* Sets the position for the pseudo-element */
   width: 100%; /* Makes the wrapper cover the full page width */
-  height: 100vh; /* Full viewport height */
+  height: 50%; /* Full viewport height */
   overflow: auto; /* Enables scrolling */
 }
 
@@ -248,13 +248,13 @@ z-index: -1;
   top: 0;
   left: 0;
   width: 100%; /* Covers the full width */
-  height: 100%; /* Covers the full height */
+  height: 100%; /* Covers the % height */
   background-image: url('Visit Laercio soja-PR.jpg'); /* Replace with your image path */
   background-size: cover; /* Ensures the image covers the entire area */
   background-position: center; /* Centers the image */
   background-attachment: fixed; /* Keeps the background image static */
   background-repeat: no-repeat; /* Prevents repetition */
-  opacity: 0.4; /* Sets 40% transparency */
+  opacity: 0.6; /* Sets 50% transparency */
   z-index: -1; /* Pushes it behind the content */
 }
 
