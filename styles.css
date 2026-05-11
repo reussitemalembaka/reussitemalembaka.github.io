@@ -88,7 +88,7 @@ body {
   /* width: 20%; Adjust as needed  */
   text-align: center;   /* Center text horizontally */
   padding: 4px;   /* Add padding inside each box */ 
-  border: 1px solid rgb(120, 145, 241); /* Blue border for better visibility */ 
+  border: 1px solid rgb(222, 224, 233); /* Blue border for better visibility */ 
   margin: 0 5px; /* Add some margin between boxes */ 
   background-color: rgb(255, 255, 255);   /* Blue background */ 
   word-wrap: break-word; /* Ensure long words break and stay within the box */ 
