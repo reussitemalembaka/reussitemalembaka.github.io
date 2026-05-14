@@ -13,17 +13,17 @@ nav {
     text-align: center;       /* Centering the text inside the header */
     font-size: 18px;          /* Font size of the header text */
     margin: 0;                /* No margin around the header */
-    border-bottom: 2px solid #58a15b; /* Optional: Add a bottom border to the header */
+    border-bottom: 2px solid #ecead2; /* Optional: Add a bottom border to the header */
 }
 
 .header2 {
-  background-color: #aeb26d; /* Background color of the header */
-  color: rgb(3, 3, 3);             /* Text color of the header */
+  background-color: #dcdfae; /* Background color of the header */
+  color: rgb(6, 71, 20);             /* Text color of the header */
   padding: 3px;            /* Padding inside the header */
   text-align: center;       /* Centering the text inside the header */
   font-size: 18px;          /* Font size of the header text */
   margin: 0;                /* No margin around the header */
-  border-bottom: 2px solid #3e8e41; /* Optional: Add a bottom border to the header */
+  border-bottom: 2px solid #adddc5; /* Optional: Add a bottom border to the header */
 }
 
 /* Additional styling for the header title */
@@ -52,7 +52,7 @@ nav {
   width: 15%; /* Adjust as needed */ 
   text-align: center;   /* Center text horizontally */
   padding: 0px;   /* Add padding inside each box */ 
-  border: 1px solid rgb(130, 181, 212); /* Blue border for better visibility */ 
+  border: 1px solid rgb(189, 204, 212); /* Blue border for better visibility */ 
   margin: 0 5px; /* Add some margin between boxes */ 
   background-color: rgb(210, 227, 241);   /* Blue background */ 
   word-wrap: break-word; /* Ensure long words break and stay within the box */ 
